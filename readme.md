@@ -1,5 +1,5 @@
 # Turing Game
-Turing Game a game where there are multiple challenges based on the turing machine for the player to complete. This programme was written by Ng Ri Chi (1004143, CC06) for the DW Final Assignment.
+Turing Game is a turing machine simulator that can run challenges. This programme was written for the SUTD's Digital World Final Assignment.
 
 ## [Introductory Video](https://sutdapac-my.sharepoint.com/:v:/g/personal/richi_ng_mymail_sutd_edu_sg/ESbYQFLCugpChpmpE98HbtMBW905CgmdIixHe0zc4CNpSg?e=9oyzNF)
 There are slight cosmetic changes, and gameConf.txt is now fully configured.
