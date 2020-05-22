@@ -105,8 +105,5 @@ The last few lines of code forms the back bone of this programme.
 1. Encryption of `confGame.txt` so player cannot see solution.
 2. Enable player to start in selected cursor other than 0.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
 ## Donation
-If you have enjoyed the game or find it helpful, consider donating a token sum via [payNow](https://www.abs.org.sg/consumer-banking/pay-now) to +65 83954386. Thanks!
+If you have enjoyed the game or find it helpful, consider donating a token sum via [payNow](https://www.abs.org.sg/consumer-banking/pay-now). I can send you my number via my email. Thanks!
