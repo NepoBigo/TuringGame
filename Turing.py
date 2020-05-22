@@ -1,4 +1,4 @@
-#This programme was written by Ng Ri Chi (1004143, CC06) for the DW Final Assignment.
+#This programme can be found on https://github.com/NepoBigo/TuringGame/
 #Please read the readme.md attached
 
 from libdw import sm
