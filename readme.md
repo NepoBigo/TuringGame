@@ -5,7 +5,7 @@ Turing Game is a turing machine simulator that can run challenges. This programm
 There are slight cosmetic changes, and gameConf.txt is now fully configured.
 
 ## Prerequisite
-This python game requires [libdw](https://people.sutd.edu.sg/~oka_kurniawan/10_009/doc/html/) and [kivy](https://kivy.org/#home). Use the package manager [pip](https://pip.pypa.io/en/stable/) to install them. For best playing experience, ensure your environment supports ANSI Select Graphic Rendition. If you are using Windows please consider running in [VS Code](https://code.visualstudio.com/) (this game's coding environment) or the [Windows Terminal](https://github.com/microsoft/terminal).
+This python game requires [libdw](https://people.sutd.edu.sg/~oka_kurniawan/10_009/doc/html/) and [kivy](https://kivy.org/#home). Good news! Now you can just use  [pipenv](https://pipenv.pypa.io/en/latest/) and type `pipenv shell` to instantly set up a virtual environment. For best playing experience, ensure your environment supports ANSI Select Graphic Rendition. If you are using Windows please consider running in [VS Code](https://code.visualstudio.com/) (this game's coding environment) or the [Windows Terminal](https://github.com/microsoft/terminal).
 
 ## Medium
 Please note that this game is predominately text based, and GUI is only used to set up the dictionary that configures the turing machine (`confDict`). The game also loads the text files `confDict.txt` and `gameConf.txt` which allows for the player to save and manipulate confDict outside the game and modify the challenges respectively.
@@ -89,7 +89,7 @@ The last few lines of code forms the back bone of this programme.
 4. Enters while loop that regulates interaction between main menu and game
 #### the While Loop
 1. `Menu`: Prints out menu, and ensures player inputs valid options. Prompt again if input is incorrect
-2. `Game`:Runs game and resets kivy if kivy is ran
+2. `Game`: Runs game ~~and resets kivy if kivy is ran ~~ (the code to reset kivy is broken. Please see issues)
 3. `Exit`: Exits the While loop, where the programme exits
 
 ## Bundled challenges
